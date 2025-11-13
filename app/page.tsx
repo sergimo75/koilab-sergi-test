@@ -70,7 +70,7 @@ useEffect(() => {
   return (
     <div className="min-h-screen flex flex-col bg-white">
       {/* Header */}
-      <header className="container mx-auto px-4 py-6 flex items-center justify-between max-w-[1200px]">
+      <header className="container mx-auto pl-0 pr-4 py-6 flex items-center justify-between max-w-[1200px]">
         <Link href="/" className="flex items-center gap-2">
           <div className="w-50 h-10 bg-coral-500 rounded-lg flex items-center justify-center">
             <Image src="/koilab-logo.svg" alt="KoiLab Logo" width={180} height={52} className="rounded-lg" />
@@ -86,13 +86,13 @@ useEffect(() => {
       {/* Hero Section */}
 <div className="bg-gradient-to-b from-blue-50 to-white pt-20 pb-0">
   <section className="container mx-auto px-4 text-center">
-    <h1 className="text-5xl md:text-5xl font-extralight text-gray-800 mb-6 text-balance">
+    <h1 className="text-5xl md:text-5xl font-extralight text-gray-800 mb-8 text-balance">
       Conversational AI That Speaks Your Language
     </h1>
-    <p className="text-xl text-gray-600 font-light mb-8 max-w-4xl mx-auto">
+    <p className="text-2xl text-gray-600 font-light mb-10 max-w-4xl mx-auto">
       Engage customers naturally with Diplomat.bot's intelligent dialogues
     </p>
-    <p className="text-gray-700 font-mono p-5 mb-10 w-full max-w-[1200px] mx-auto leading-relaxed bg-[#eceff3]">
+    <p className="text-gray-700 font-mono p-5 mb-12 w-full max-w-[1200px] mx-auto leading-relaxed bg-[#eceff3]">
       From WordPress extensions to cutting-edge AI solutions, KoiLab has evolved to meet the changing needs of
       businesses. We're proud to introduce Diplomat.bot, our AI-powered customer engagement platform.
     </p>
@@ -102,7 +102,7 @@ useEffect(() => {
     <Button
       size="lg"
       variant="default"
-      className="bg-[#e55948] hover:bg-[#d66552] text-white px-8 py-6 text-lg rounded-full shadow-lg transition-all hover:shadow-xl"
+      className="bg-[#e55948] hover:bg-[#ffffff] hover:text-[#e55948] border-1 border-[#e55948] text-white font-normal px-8 py-6 text-lg rounded-full transition-all cursor-pointer"
     >
       Start the Conversation
     </Button>
@@ -134,7 +134,7 @@ useEffect(() => {
       {/* Testimonials Section con Slider */}
 <section className="bg-gradient-to-b from-white to-blue-50 py-20">
   <div className="container w-full max-w-[1200px] mx-auto px-4">
-    <h2 className="text-4xl font-extralight text-gray-800 text-center mb-16 text-balance">
+    <h2 className="text-[44px] font-extralight text-gray-800 text-center mb-16 text-balance">
       Engage, Inform, Impress – Your AI Startup Assistant
     </h2>
     
@@ -179,8 +179,8 @@ useEffect(() => {
 
       {/* Footer */}
       <footer className="bg-[#e55948] text-white py-8 mt-auto">
-        <div className="container mx-auto px-4 flex items-center justify-between">
-          <p className="text-sm">KOILAB © 2025. All rights reserved.</p>
+        <div className="container max-w-[1200px] mx-auto px-4 flex items-center justify-between">
+          <p className="text-m">KOILAB © 2025. All rights reserved.</p>
           <div className="flex gap-4">
             <Link href="#" className="hover:opacity-80 transition-opacity">
               <Github className="w-6 h-6" />
